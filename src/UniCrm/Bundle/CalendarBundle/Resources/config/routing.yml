@@ -1,0 +1,4 @@
+uni_crm_bundles_calendar:
+    resource: "@UniCrmCalendarBundle/Controller/"
+    type:     annotation
+    prefix:   /admin

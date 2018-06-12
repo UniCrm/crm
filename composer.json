@@ -1,0 +1,27 @@
+{
+  "name": "unicrm/crm",
+  "type": "symfony-bundle",
+  "description": "UniCrm Crm App",
+  "keywords": [],
+  "homepage": "",
+  "license": "",
+  "authors": [
+    {
+      "name": "Klejdis Jorgji",
+      "email": "jorgji.klejdis@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.9",
+    "friendsofsymfony/user-bundle": "^2.1"
+  },
+  "require-dev": {
+    "sensio/generator-bundle": "^3.0",
+    "symfony/phpunit-bridge": "^3.0"
+  },
+  "autoload" : {
+    "psr-4": {
+      "UniCrm\\Bundle\\": "src/UniCrm/Bundle/"
+    }
+  }
+}

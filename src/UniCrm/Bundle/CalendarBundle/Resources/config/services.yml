@@ -1,0 +1,6 @@
+services:
+    calendar:
+        class: UniCrm\Bundles\CalendarBundle\Service\Calendar
+        autoconfigure: true
+        calls:
+             - [setContainer, ['@service_container']]
